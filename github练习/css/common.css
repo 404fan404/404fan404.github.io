@@ -1,0 +1,93 @@
+.DaoHang{
+    width: 100%;
+    background-color: black;
+}
+.DaoHang .ZhuTi{
+    width: 1200px;
+    height: 80px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    width: 120px;
+    height: 80px;
+    /* background-color: brown; */
+}
+.DaoHang .ZhuTi ul{
+    float: left;
+}
+.DaoHang .ZhuTi ul li{
+    line-height: 80px;
+    float: right;
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.DaoHang .ZhuTi ul li a{
+    color: #fff;
+    /* 清除链接下划线 */
+    text-decoration:none;
+
+}
+
+.DaoHang .ZhuTi ul li:hover{
+    background-color: rgb(122, 118, 118);
+}
+.DaoHang .ZhuTi input{
+    border: 1px #fff solid;
+    float: left;
+    /* 上外边距，调整上下对齐 */
+    margin-top: 28px;
+    /* 设置文本框高度 */
+    line-height: 20px;
+    /* 设置左外边距 */
+    margin-left: 45px;
+    color: rgb(170, 175, 175);
+    /* opacity设置透明度 */
+    /* opacity:0.5; */
+    background: url(../images/搜索.jpg);
+    background-repeat:no-repeat;
+    /* 设置背景图片大小 */
+    background-size: 23px;
+    /* 设置背景图片位置 */
+    background-position :146px;
+    border-radius: 5px;
+}
+.DaoHang .ZhuTi .DengLu input{
+    float: right;
+    opacity:1;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+    border-radius: 3px;
+    margin-top: 27px;
+    
+}
+.DaoHang .ZhuTi .DengLu input:hover{
+    background-color: #fff;
+    color: black;
+}
+.DaoHang .ZhuTi .ZhuCe input{
+    float: right;
+    opacity:1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: chartreuse;
+    border: 1px chartreuse solid;
+    color: #fff;
+    margin-top: 27px;
+    border-radius: 3px;
+}
+.DaoHang .ZhuTi .ZhuCe input:hover{
+    background-color: rgb(109, 182, 36);
+    border: 1px solid  rgb(109, 182, 36);
+
+
+}
+
