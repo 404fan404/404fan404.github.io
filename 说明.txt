@@ -1,4 +1,0 @@
-index.html首页的html文件
-以.ico为后缀的文件，ico图标
-images文件夹：固定使用的图片素材，如logo,样式修饰图，ico图标等
-uploads文件夹：非固定的图片素材，如：商品图片，宣传图片等
